@@ -1,4 +1,4 @@
-package com.example.currencyapptask
+package com.fatalzero.currencyapptask
 
 import org.junit.Test
 
