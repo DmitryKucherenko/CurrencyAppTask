@@ -7,7 +7,8 @@ import dagger.BindsInstance
 import dagger.Component
 
 
-@Component
+@Component(modules = [DataModule::class])
+
 interface ApplicationComponent {
     @Component.Factory
     interface Factory {
